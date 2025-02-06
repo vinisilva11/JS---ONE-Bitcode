@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Jogadores</title>
+</head>
+<body>
+    <h1>Cadastro de Jogadores</h1>
+
+    <h2>Escalar Jogador</h2>
+    
+    <ul id="contact-players">
+        <li>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" class="contact-input">
+          </li>
+        <li>
+            <label for="position">Posição:</label>
+            <input type="text" id="position" name="position" class="contact-input">
+          </li>
+          <li>
+            <label for="number-shirt">Número da camisa</label>
+            <input type="number" id="number-shirt" name="number-shirt" class="contact-input">
+          </li>
+          <button onclick="addPlayer()">
+            Escalar Jogador
+          </button>
+
+    </ul>
+
+    <script src="./cadastro.js"></script>
+</body>
+</html>
